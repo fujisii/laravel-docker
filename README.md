@@ -14,7 +14,7 @@ Laravel + Docker Compose (PHP-FPM, Nginx, MySQL, Redis)
 
 ```
 docker-compose up -d
-docker exec -it laravel-docker-php-fpm-1 bash
+docker exec -it laravel-docker_php-fpm_1 bash
 
 composer install
 ```
