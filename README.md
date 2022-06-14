@@ -35,6 +35,15 @@ docker-compose down
 # -t: 擬似 TTY を割り当てます。
 #     →標準入出力となっている端末デバイス（TTY→ターミナル）を割り当てるオプションです。
 docker exec -it laravel-docker-php-fpm-1 bash
+
+# コンテナーの停止
+docker-compose stop
+
+# コンテナーの起動
+docker-compose start
+
+# コンテナーの再起動
+docker-compose restart
 ```
 
 ## Link
