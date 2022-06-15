@@ -13,10 +13,13 @@ Laravel + Docker Compose (PHP-FPM, Nginx, MySQL, Redis)
 ## Quick Start
 
 ```
+# ホスト
 docker-compose up -d
 docker exec -it laravel-docker_php-fpm_1 bash
 
+# PHP-FPMコンテナ
 composer install
+php artisan migrate
 ```
 
 ## Command
