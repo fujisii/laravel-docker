@@ -1,4 +1,4 @@
-# laravel-docker
+# laravel-docker-compose
 Laravel + Docker Compose (PHP-FPM, Nginx, MySQL, Redis)
 
 ## Requirements
@@ -10,12 +10,12 @@ Laravel + Docker Compose (PHP-FPM, Nginx, MySQL, Redis)
 - MySQL
 - Redis
 
-## Quick Start
+## Quickstart
 
 ```
 # ホスト
 docker-compose up -d
-docker exec -it laravel-docker_php-fpm_1 bash
+docker exec -it laravel-docker-compose-php-fpm-1 bash
 
 # PHP-FPMコンテナ
 composer install
